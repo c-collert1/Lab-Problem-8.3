@@ -5,7 +5,11 @@ int convertRomanToInt(string s);
 int romanCharValue(string r);
 
 int main() {
-    cout << convertRomanToInt("MCMLXII");
+    
+    string romanNumeral;
+    cout << "Enter roman Numeral: ";
+    cin >> romanNumeral;
+    cout << convertRomanToInt(romanNumeral);
     return 0;
 }
 
